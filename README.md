@@ -37,6 +37,8 @@ Use the [audit-backed skill map](SKILL-MAP.md) to scope issues and assign indivi
 
 ## Market evidence
 
+See the [Greek and European hiring review and workshop sequence](MARKET-REVIEW.md) for the employer evidence, survey limits and proposed individual checks.
+
 Selection reviewed 27 November 2026 against employer postings and the Athens project briefs. This is a targeted sample for an application-development track. It does not measure vacancy share.
 
 - **Qualco, associate, Athens.** Spring Boot and enterprise application work support the backend foundation. JPA/Hibernate, Docker and CI/CD are additional skills. [Role](https://apply.workable.com/qualcogroup/j/E52F5B3019)
