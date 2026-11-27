@@ -2,6 +2,22 @@
 
 Build one portfolio application that an engineer can clone, test and review. Target Java, Spring Boot, Angular and PostgreSQL. The piscine has its [own repository](https://github.com/zone01athens/java-full-stack-starter) and schedule. Use the [specialization board](https://github.com/orgs/zone01athens/projects/9) for project decisions.
 
+## Weekly work and workshops
+
+Plan for **15 hours per learner per week**, including workshops and individual review. Collect recurring campus availability before assigning teams. Track each milestone on the specialization board and link its issue to the implementation, tests and individual demonstration. The allocation is a planning budget; calendar dates depend on team availability and progress.
+
+Five proposed 90-minute workshops follow the projects:
+
+| When | Workshop | Evidence in the next PR or review |
+| --- | --- | --- |
+| Alongside lets-play | PostgreSQL schema, constraints and joins | Explain a LEFT JOIN that includes owners with zero products. Keep this fixture separate from the official MongoDB submission. |
+| During java-localserver | Java NIO and fragmented requests | Trace a partial read while a second client completes a request. |
+| Before buy-02 checkout | PostgreSQL transactions | Use two sessions competing for the last unit and test the stock invariant. |
+| During mr-jenk and safe-zone | Docker, Linux logs and CI debugging | Reproduce a failure, add a regression test and explain the fix in an English PR. |
+| During 01blog | JPA, PostgreSQL query plans and indexes | Inspect the SQL and measure the effect of one index using representative data. |
+
+[Workshop exercises](MARKET-REVIEW.md#postgresql-and-workshops) · [Weekly planning](SKILL-MAP.md#planning-at-15-hours-per-learner-per-week)
+
 ## Project selection
 
 Study four projects in depth: lets-play, java-localserver, angul-it and 01blog. Focus on the new skills in buy-01, mr-jenk, safe-zone and buy-02. These four are prerequisites for official 01blog credit. The remaining four projects are outside the common track. See the [skill map](SKILL-MAP.md) for individual checks and permitted AI assistance.
@@ -37,13 +53,6 @@ Use the [audit-backed skill map](SKILL-MAP.md) to scope issues and assign indivi
 
 ## Market evidence
 
-See the [Greek and European hiring review and workshop sequence](MARKET-REVIEW.md) for the employer evidence, survey limits and proposed individual checks.
-
-Selection reviewed 27 November 2026 against employer postings and the Athens project briefs. This is a targeted sample for an application-development track. It does not measure vacancy share.
-
-- **Qualco, associate, Athens.** Spring Boot and enterprise application work support the backend foundation. JPA/Hibernate, Docker and CI/CD are additional skills. [Role](https://apply.workable.com/qualcogroup/j/E52F5B3019)
-- **European Dynamics, Greece/remote.** Java, SQL and JavaScript/Angular support a single database-backed full-stack capstone. [Role](https://apply.workable.com/european-dynamics/j/151C739477)
-- **PLANET, 1+ years.** Spring Boot, REST, Git, Maven and Docker support a short delivery lab. Jenkins is useful in this stack. [Role](https://apply.workable.com/planet-sa-1/j/601D56BBE0/apply)
-- **QnR, senior comparator.** PostgreSQL, migrations and JPA show what the database skill develops into. Senior responsibilities are outside the entry assessment. [Role](https://apply.workable.com/qnr-1/j/D342CB5F5C)
+The November 2026 review examined ten early-career roles in Greece and four other EU countries, plus two Greek comparator roles. Based on this sample, introduce relational SQL early, teach one frontend stack in depth, and require each learner to diagnose an unfamiliar defect, write a regression test and explain the change in review. The full report distinguishes required skills from employer preferences and documents the sample limits. [Employer evidence and surveys](MARKET-REVIEW.md)
 
 [Restricted Educational License](LICENSE)
